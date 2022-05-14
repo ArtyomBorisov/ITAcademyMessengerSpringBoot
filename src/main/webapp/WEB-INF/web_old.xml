@@ -1,0 +1,14 @@
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>Messenger</display-name>
+
+    <welcome-file-list>
+        <welcome-file>views/mainPage.jsp</welcome-file>
+    </welcome-file-list>
+
+    <listener>
+        <listener-class>by.it.academy.messenger.controller.web.listeners.SessionListener</listener-class>
+    </listener>
+</web-app>
